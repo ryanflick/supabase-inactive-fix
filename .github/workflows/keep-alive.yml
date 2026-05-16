@@ -14,7 +14,7 @@ on:
 
 # test new node24 version of the two "actions" below
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24 = true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   
 jobs:
   keep-alive:
