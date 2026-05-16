@@ -12,6 +12,10 @@ on:
   # Allow manual triggering from the Actions tab
   workflow_dispatch:
 
+# test new node24 version of the two "actions" below
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24 = true
+  
 jobs:
   keep-alive:
     runs-on: ubuntu-latest
